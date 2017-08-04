@@ -18,4 +18,4 @@
 
 
 ```
-© 2017 by Kevin Su | 21.co/kevinsu | San Francisco, CA
+© 2017 by Kevin Su | kevin.su | San Francisco, CA

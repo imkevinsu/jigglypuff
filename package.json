@@ -1,0 +1,21 @@
+{
+  "name": "jigglypuff",
+  "version": "1.0.0",
+  "description": "calorie counting fullstack application",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkevinsu/jigglypuff.git"
+  },
+  "author": "Kevin Su",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imkevinsu/jigglypuff/issues"
+  },
+  "homepage": "https://github.com/imkevinsu/jigglypuff#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
