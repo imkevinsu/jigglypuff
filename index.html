@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app = 'mainApp'>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-route/angular-route.js"></script>
+  <script src="server/server.js"></script>
+</head>
+
+<body>
+
+  <p> Hello, {{user}} </p>
+<input type ="text" name="" id="" ng-model="user"/>
+  <button ng-click ="number = number + 1"> plus 1 </button>
+  <p> {{number}} </p>
+
+
+  Show me the paragraph
+<input type = "checkbox" name="" id="" ng-model="isChecked">
+<h1 ng-if = "isChecked"> I HATE THIS SHIT</h1>
+
+
+</body>
+</html>
