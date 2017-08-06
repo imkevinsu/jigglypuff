@@ -16,8 +16,10 @@
   > Be Healthy, Count Calories
 
 ## Technologies Used ##
-  > MongoDB, Express, AngularJS, Node
+  > MongoDB, Express, AngularJS, Node, Heroku
 
+## DEPLOYMENT ##
+  > https://jigglypuff1256.herokuapp.com/
 
 
 ```
