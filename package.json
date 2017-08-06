@@ -18,8 +18,10 @@
   "dependencies": {
     "angular": "^1.6.5",
     "angular-route": "^1.6.5",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mongodb": "^2.2.30"
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.11.5"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
