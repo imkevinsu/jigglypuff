@@ -9,15 +9,17 @@
 
 <body>
 
-  <p> Hello, {{user}} </p>
-<input type ="text" name="" id="" ng-model="user"/>
-  <button ng-click ="number = number + 1"> plus 1 </button>
-  <p> {{number}} </p>
+  <h1>Your Food History</h1>
+</div>
 
-
-  Show me the paragraph
-<input type = "checkbox" name="" id="" ng-model="isChecked">
-<h1 ng-if = "isChecked"> hello there </h1>
+  <div class="container-fluid">
+  <ul class="list-group" ng-init="totalcal = 0">
+    <!-- i can order by calories here later -->
+    <li class="list-group-item" ng-repeat="food in foods | orderBy: 'name' :true" >
+      {{food.name}} {{food.calories}}
+    </li>
+  </ul>
+</div>
 
 
 </body>
