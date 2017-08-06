@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html ng-app="foodApp">
   <head>
-      <title></title>
+      <title>JigglyPuff Diet Plan</title>
+      <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <!-- <center> -->
+  <center>
+<!-- yo dis my controller -->
   <div ng-controller="foodsController">
 
-
+<!-- dis my giant text -->
         <div class="jumbotron text-center">
           <h1>Jiggly Puff</h1>
           <h1>  </h1>
+          <p> (Refresh to Clear the Calories for the Day) </p>
+
           <img src="http://vignette1.wikia.nocookie.net/pokemonfanon/images/2/26/039_jigglypuff_by_tails19950-d4aijil.png/revision/latest?cb=20170205215412" alt="HTML5 Icon" style="width:128px;height:128px;">
         </div>
-
-
+<!-- i used an alert component from bootstrap as my title background lol -->
         <div class="alert alert-info" >
-                <h1>You had {{totalcal}} calories in this meal</h1></h1>
+          <h1>You had {{totalcal}} calories today</h1></h1>
         </div>
 
+<!-- dis is where the action is at, the input fields yo! -->
         <form ng-submit="createFood()" class="form-inline">
           <input class="form-control" type="text" placeholder="Food Name" ng-model="foodName"></input>
           <input class="form-control"  type="number" placeholder="Calories" ng-model="calNumber"></input>
@@ -26,12 +30,12 @@
         </form>
         <h2>   </h2>
 
-
+<!-- another chunk of text -->
         <div class="alert alert-info" >
-                <h1>Your Food History</h1>
+          <h1>Your Food History</h1>
         </div>
 
-
+<!-- This is the list  -->
         <div class="container-fluid">
           <ul class="list-group" ng-init="totalcal = 0">
             <!-- i can order by calories here later -->
@@ -40,17 +44,17 @@
         </div>
 
 
-  </div>
-<!-- </center> -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- this is all the scripts i would need -->
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-resource.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
       <script type="text/javascript" src="/js/app.js"></script>
       <script type="text/javascript" src="/js/foods-controller.js"></script>
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
   </body>
 </html>

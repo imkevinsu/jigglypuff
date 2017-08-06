@@ -1,4 +1,5 @@
 var Food = require('./food');
+//defined meetup model
 
 module.exports.create = function (req, res) {
   var food = new Food(req.body);

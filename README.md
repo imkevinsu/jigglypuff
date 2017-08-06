@@ -2,7 +2,7 @@
 
 
 ## Abstract ##
-  > Do you have trouble counting calories? Are you tired of having to look up individual food items on Google? Well, now you don't have to. With JigglyPuff you can enter all your food items at once and you can get an overview on the nutrition content of your meal
+  > Do you have trouble counting calories? Are you tired of having to write down what you eat for every meal and calculate total calories at the end of the day? Well, now you don't have to. With JigglyPuff you can enter all your food items at once and you can get an overview on the nutrition content of your meal
 
 ## Summary ##
   > 80% of losing weight is paying attention to your diet. Calories in and calories out. With JigglyPuff all you have to do is enter your meal and it will calculate the nutrition content for you.

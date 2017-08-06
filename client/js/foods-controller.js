@@ -12,11 +12,10 @@ app.controller('foodsController', ['$scope', '$resource', function ($scope, $res
 
     food.$save(function (result) {
       $scope.foods.push(result);
-      console.log($scope.calNumber);
       $scope.foods.push($scope.calNumber);
       $scope.totalcal = $scope.calNumber + $scope.totalcal;
-      $scope.foodName = '';
-      $scope.calNumber = '';
+      $scope.foodName = ''; //clear input field jiggly
+      $scope.calNumber = ''; //clear input field jiggly
     });
   };
 }]);
